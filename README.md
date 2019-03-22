@@ -1,5 +1,8 @@
 ## 工程说明
-IOS可编译版在分支IOS上，含基于原版Demo修改的可编译Demo。
+* IOS可编译版在分支IOS上
+* 含基于原版Demo修改的可编译Demo。
+* 因为Demo引入了opencv依赖（SeetaFaceEngine不依赖opencv），所以上传了opencv4.0
+
 
 ## SeetaFace Engine  
 
