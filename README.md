@@ -1,7 +1,7 @@
 ## 工程说明
 * IOS可编译版在分支IOS上
 * 含基于原版Demo修改的可编译Demo。
-* 因为Demo引入了opencv依赖（SeetaFaceEngine不依赖opencv），所以上传了opencv4.0
+* 因为Demo引入了opencv依赖（SeetaFaceEngine不依赖opencv），所以自行下载opencv4.0（https://sourceforge.net/projects/opencvlibrary/files/4.0.0/opencv-4.0.0-ios-framework.zip/download）
 * 因为opencv使用的libpng模块在读取打包成ipa后的png文件可能会失败，所以需要关闭xcode的png优化，将`Compress PNG Files` ，`Remove Text Metadata from PNG Files`均置为`No`
 
 
