@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BBC54553224490DC00045FE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC54552224490DC00045FE0 /* AppDelegate.m */; };
-		BBC54556224490DC00045FE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBC54555224490DC00045FE0 /* ViewController.m */; };
+		BBC54556224490DC00045FE0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BBC54555224490DC00045FE0 /* ViewController.mm */; };
 		BBC54559224490DC00045FE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC54557224490DC00045FE0 /* Main.storyboard */; };
 		BBC5455B224490DC00045FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC5455A224490DC00045FE0 /* Assets.xcassets */; };
 		BBC5455E224490DC00045FE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC5455C224490DC00045FE0 /* LaunchScreen.storyboard */; };
@@ -50,6 +50,7 @@
 		BBC5478C2244913F00045FE0 /* bn_net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BBC546A52244913F00045FE0 /* bn_net.cpp */; };
 		BBC5478F2244A68C00045FE0 /* 0_1_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BBC5478E2244A68C00045FE0 /* 0_1_1.jpg */; };
 		BBC548CF2244A6C900045FE0 /* test_face_recognizer in Resources */ = {isa = PBXBuildFile; fileRef = BBC548CE2244A6C900045FE0 /* test_face_recognizer */; };
+		BBC548D12244A90600045FE0 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBC548D02244A90600045FE0 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +58,7 @@
 		BBC54551224490DC00045FE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBC54552224490DC00045FE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BBC54554224490DC00045FE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BBC54555224490DC00045FE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBC54555224490DC00045FE0 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		BBC54558224490DC00045FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBC5455A224490DC00045FE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC5455D224490DC00045FE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		BBC546A52244913F00045FE0 /* bn_net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bn_net.cpp; sourceTree = "<group>"; };
 		BBC5478E2244A68C00045FE0 /* 0_1_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0_1_1.jpg; sourceTree = "<group>"; };
 		BBC548CE2244A6C900045FE0 /* test_face_recognizer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = test_face_recognizer; sourceTree = "<group>"; };
+		BBC548D02244A90600045FE0 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC548D12244A90600045FE0 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +161,7 @@
 		BBC54545224490DC00045FE0 = {
 			isa = PBXGroup;
 			children = (
+				BBC548D02244A90600045FE0 /* opencv2.framework */,
 				BBC54550224490DC00045FE0 /* SeetaFace-IOS */,
 				BBC5454F224490DC00045FE0 /* Products */,
 			);
@@ -178,7 +182,7 @@
 				BBC54551224490DC00045FE0 /* AppDelegate.h */,
 				BBC54552224490DC00045FE0 /* AppDelegate.m */,
 				BBC54554224490DC00045FE0 /* ViewController.h */,
-				BBC54555224490DC00045FE0 /* ViewController.m */,
+				BBC54555224490DC00045FE0 /* ViewController.mm */,
 				BBC54557224490DC00045FE0 /* Main.storyboard */,
 				BBC5455A224490DC00045FE0 /* Assets.xcassets */,
 				BBC5455C224490DC00045FE0 /* LaunchScreen.storyboard */,
@@ -551,7 +555,7 @@
 				BBC5477B2244913F00045FE0 /* log.cpp in Sources */,
 				BBC546B82244913F00045FE0 /* surf_feature_map.cpp in Sources */,
 				BBC546B32244913F00045FE0 /* face_detection.cpp in Sources */,
-				BBC54556224490DC00045FE0 /* ViewController.m in Sources */,
+				BBC54556224490DC00045FE0 /* ViewController.mm in Sources */,
 				BBC546B72244913F00045FE0 /* lab_feature_map.cpp in Sources */,
 				BBC54561224490DC00045FE0 /* main.m in Sources */,
 				BBC546BE2244913F00045FE0 /* mlp.cpp in Sources */,
@@ -721,6 +725,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "SeetaFace-IOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -729,6 +738,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zxs.zl.SeetaFace-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../FaceDetection/include\"",
@@ -743,6 +753,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				COMPRESS_PNG_FILES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "SeetaFace-IOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -751,6 +766,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "zxs.zl.SeetaFace-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_PNG_TEXT = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../FaceDetection/include\"",
