@@ -67,3 +67,5 @@ Pods/
 Script/build_fat/
 Script/build_iphoneos/
 Script/build_iphonesimulator/
+
+opencv2.framework/
