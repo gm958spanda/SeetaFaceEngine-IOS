@@ -173,6 +173,9 @@ double SpatialTransformNet::Sampling(const float* const feat_map, int H, int W,
     }
     return ans;
   }
+  else {
+    return 0;
+  }
 }
 
 double SpatialTransformNet::Sampling(const unsigned char* const feat_map, 
@@ -230,6 +233,9 @@ double SpatialTransformNet::Sampling(const unsigned char* const feat_map,
       }
     }
     return ans;
+  }
+  else {
+      return 0;
   }
 }
 
