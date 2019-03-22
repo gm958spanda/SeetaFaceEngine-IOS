@@ -1,3 +1,6 @@
+## 工程说明
+IOS可编译版在分支IOS上，含基于原版Demo修改的可编译Demo。
+
 ## SeetaFace Engine  
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
